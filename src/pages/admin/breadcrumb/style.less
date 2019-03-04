@@ -1,0 +1,30 @@
+
+.bread-crumb-wrap{
+    line-height: 60px;
+    padding:0 50px;
+    background-color: #fff;
+    .bread-crumb{
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        &::after{
+            content:"";
+            border-left:15px solid transparent;
+            border-right:15px solid transparent;
+            border-top:15px solid #FFF;
+            position: absolute;
+            top:60px;
+            left:110px;
+        }
+    }
+    .weather-wrap{
+        text-align: right;
+    }
+    .time{
+        margin-left:15px;
+    }
+    .weather{
+        margin-left:15px;
+    }
+
+}
