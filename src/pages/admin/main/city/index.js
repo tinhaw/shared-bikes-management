@@ -80,9 +80,7 @@ export default class City extends Component {
                 title:"城市管理员",
                 dataIndex: 'city_admin',
                 render(arr){
-                    return arr.map((item)=>{
-                        return item.admin_name
-                    }).join("，");
+                    return arr.join("，");
                 }
             },
             {

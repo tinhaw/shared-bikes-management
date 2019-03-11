@@ -24,7 +24,7 @@ export default class Axios  {
             axios({
                 method: 'get',
                 url:opts.url,
-                baseURL:'https://www.easy-mock.com/mock/5c491e5742fb8805d9e6e5dc/table',
+                baseURL:'https://www.easy-mock.com/mock/5c6b092be1b4221fdd76d3a2/table',
                 timeout: 5000,
                 params: (opts.data && opts.data.params) || ''
             }).then((response)=>{

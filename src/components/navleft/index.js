@@ -53,7 +53,7 @@ export default class Navleft extends Component {
             <div className="nav-left-wrap">
                 <div className="logo">
                     <img src={logo_img}  alt="" />
-                    <span className="logo-span">E-bike Management</span>
+                    <span className="logo-span">E-bike</span>
                 </div>
                 <Menu
                     className="nav-left"
